@@ -9,7 +9,7 @@ spring:
     active: test
 zuul:
   routes:
-    springcloud-consumer-config: /consumer/**
+    springcloud-consumer-feign: /consumer/**
     springcloud-provider-config: /provider/**
     
 # keycloak:
